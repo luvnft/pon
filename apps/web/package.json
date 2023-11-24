@@ -9,6 +9,9 @@
         "start": "next start",
         "lint": "next lint"
     },
+    "engines": {
+  "node": "14.17.6" // Specify the appropriate Node.js version
+    },
     "dependencies": {
         "@apollo/client": "3.7.0",
         "@business-card/sdk": "workspace:*",
